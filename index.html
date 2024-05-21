@@ -9,14 +9,133 @@
     <link rel="stylesheet" href="./src/output.css">
     <title>Audiophile</title>
     <style>
+        * {
+            transition: all 0.4s;
+        }
+
         body {
             font-family: 'Manrope';
+        }
+
+        .speacial-container {
+            max-width: 1110px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 
 <body>
-    
+    <!-- Header -->
+    <header class="mb-56" style="background-color: #141414;">
+        <div class="speacial-container py-9 border-b-2 border-b-white/20">
+            <nav class="navbar p-0">
+                <div class="navbar-start">
+                    <a href="/">
+                        <img src="./assets/shared/desktop/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="navbar-center">
+                    <ul class="flex items-center gap-8 text-white uppercase" style="letter-spacing: 2px;">
+                        <li><a href="/" class="hover:text-orange-300">Home</a></li>
+                        <li><a href="./pages/headphones.html" class="hover:text-orange-300">Headphones</a></li>
+                        <li><a href="./pages/speakers.html" class="hover:text-orange-300">Speakers</a></li>
+                        <li><a href="./pages/earphones.html" class="hover:text-orange-300">Earphones</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img class="cursor-pointer" src="./assets/shared/desktop/icon-cart.svg" alt="cart">
+                </div>
+            </nav>
+        </div>
+
+        <div class="speacial-container flex items-center gap-11">
+            <div class="text-white">
+                <span class="text-sm opacity-50" style="letter-spacing: 10px;">NEW PRODUCT</span>
+                <h2 class="mt-6 font-bold text-5xl tracking-wide uppercase">
+                    XX99 Mark II
+                    Headphones
+                </h2>
+                <p class="mt-6 font-medium text-base opacity-75 w-96 leading-6 mb-10">
+                    Experience natural, lifelike audio and exceptional build quality made for the passionate music
+                    enthusiast.
+                </p>
+                <button class="py-3.5 px-8 bg-orange-400 hover:bg-orange-600 text-white uppercase tracking-wide"
+                    style="letter-spacing: 1px;">See Product</button>
+            </div>
+            <div>
+                <img src="./assets/home/desktop/Bitmap.png" class="bg-transparent" alt="earphone">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="speacial-container grid grid-cols-3 mb-40">
+            <div class="flex flex-col items-center relative">
+                <img class="w-28 absolute bottom-32" src="./assets/cart/headphone-cart.png" alt="headphone">
+                <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
+                    <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">HEADPHONES</h3>
+                    <a href="./pages/headphones.html"
+                        class="flex items-center gap-3.5 font-bold text-sm uppercase opacity-60"
+                        style="letter-spacing: 1px;">
+                        Shop
+                        <img style="width: 5px; height: 10px;" src="./assets/shared/desktop/icon-arrow-right.svg"
+                            alt="right">
+                    </a>
+                </div>
+            </div>
+
+            <!-- <a href=""></a> -->
+            <div class="flex flex-col items-center relative">
+                <img class="w-28 absolute bottom-32" src="./assets/cart/speaker-cart.png" alt="speaker">
+                <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
+                    <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">SPEAKERS</h3>
+                    <a href="./pages/speakers.html"
+                        class="flex items-center gap-3.5 font-bold text-sm uppercase opacity-60"
+                        style="letter-spacing: 1px;">
+                        Shop
+                        <img style="width: 5px; height: 10px;" src="./assets/shared/desktop/icon-arrow-right.svg"
+                            alt="right">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center relative">
+                <img height="126" class="w-32 h-32 absolute bottom-32" src="./assets/cart/earphone-cart.png"
+                    alt="earphone">
+                <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
+                    <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">EARPHONES</h3>
+                    <a href="./pages/earphones.html"
+                        class="flex items-center gap-3.5 font-bold text-sm uppercase opacity-60"
+                        style="letter-spacing: 1px;">
+                        Shop
+                        <img style="width: 5px; height: 10px;" src="./assets/shared/desktop/icon-arrow-right.svg"
+                            alt="right">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="speacial-container flex items-center mb-12 gap-32 bg-orange-400 rounded-md pt-24 pl-28 pr-24 text-white relative">
+            
+            <img class="absolute -left-20 z-10" src="./assets/home/desktop/pattern-circles.svg" alt="circle">
+            
+            <div class="z-20">
+                <img width="410" src="./assets/home/desktop/image-speaker-zx9.png" alt="speaker">
+            </div>
+            <div class="z-20">
+                <h2 class="font-bold text-6xl w-64">ZX9 SPEAKER</h2>
+                <p width="350" class="text-base opacity-75 mt-6 mb-10" style="width: 350px;">
+                    Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
+                </p>
+                <button class="py-3.5 px-8 bg-black hover:bg-white hover:text-black">See Product</button>
+            </div>
+        </div>
+
+        
+    </main>
 </body>
 
 </html>
