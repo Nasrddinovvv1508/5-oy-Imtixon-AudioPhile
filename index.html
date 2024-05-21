@@ -74,7 +74,8 @@
     <main>
         <div class="speacial-container grid grid-cols-3 mb-40">
             <div class="flex flex-col items-center relative">
-                <img class="w-28 absolute bottom-32" src="./assets/cart/headphone-cart.png" alt="headphone">
+                <img style="width: 183px;" class="absolute bottom-24"
+                    src="./assets/shared/desktop/image-category-thumbnail-headphones.png" alt="headphone">
                 <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
                     <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">HEADPHONES</h3>
                     <a href="./pages/headphones.html"
@@ -89,7 +90,8 @@
 
             <!-- <a href=""></a> -->
             <div class="flex flex-col items-center relative">
-                <img class="w-28 absolute bottom-32" src="./assets/cart/speaker-cart.png" alt="speaker">
+                <img class="w-28 absolute bottom-24" style="width: 183px;"
+                    src="./assets/shared/desktop/image-category-thumbnail-speakers.png" alt="speaker">
                 <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
                     <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">SPEAKERS</h3>
                     <a href="./pages/speakers.html"
@@ -103,8 +105,8 @@
             </div>
 
             <div class="flex flex-col items-center relative">
-                <img height="126" class="w-32 h-32 absolute bottom-32" src="./assets/cart/earphone-cart.png"
-                    alt="earphone">
+                <img height="126" style="width: 183px;" class="absolute bottom-24"
+                    src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="earphone">
                 <div class="flex flex-col items-center bg-zinc-100 rounded-md pt-28 pb-8" style="width: 350px;">
                     <h3 class="font-bold text-lg mb-4" style="letter-spacing: 1.29px;">EARPHONES</h3>
                     <a href="./pages/earphones.html"
@@ -118,24 +120,104 @@
             </div>
         </div>
 
-        <div class="speacial-container flex items-center mb-12 gap-32 bg-orange-400 rounded-md pt-24 pl-28 pr-24 text-white relative">
-            
+        <div
+            class="speacial-container flex items-center mb-12 gap-32 bg-orange-400 rounded-md pt-24 pl-28 pr-24 text-white relative">
+
             <img class="absolute -left-20 z-10" src="./assets/home/desktop/pattern-circles.svg" alt="circle">
-            
+
             <div class="z-20">
                 <img width="410" src="./assets/home/desktop/image-speaker-zx9.png" alt="speaker">
             </div>
+
             <div class="z-20">
                 <h2 class="font-bold text-6xl w-64">ZX9 SPEAKER</h2>
                 <p width="350" class="text-base opacity-75 mt-6 mb-10" style="width: 350px;">
                     Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
                 </p>
-                <button class="py-3.5 px-8 bg-black hover:bg-white hover:text-black">See Product</button>
+                <button class="py-3.5 px-8 uppercase bg-black hover:bg-white hover:text-black"
+                    style="letter-spacing: 2px;">See Product</button>
+            </div>
+
+        </div>
+
+        <div
+            class="speacial-container z-20 flex items-center pl-24 relative bg-[url('/assets/home/desktop/image-speaker-zx7.jpg')] h-80 rounded-md mb-12">
+            <div class="z-20">
+                <h2 class="font-bold text-3xl mb-8" style="letter-spacing: 2px;">ZX7 SPEAKER</h2>
+                <button
+                    class="font-bold text-sm uppercase py-3.5 px-8 cursor-pointer border-2 border-stone-500 hover:bg-black hover:text-white"
+                    style="letter-spacing: 2px;">See Product</button>
             </div>
         </div>
 
-        
+        <div class="speacial-container grid grid-cols-2 mb-52">
+            <div class="rounded-md">
+                <img class="rounded-md" src="./assets/home/desktop/image-earphones-yx1.jpg" alt="earphones">
+            </div>
+            <div class="bg-zinc-100 rounded-md py-24 pl-24">
+                <h2 class="font-bold text-3xl mb-8" style="letter-spacing: 2px;">YX1 EARPHONES</h2>
+                <button
+                    class="font-bold text-sm uppercase py-3.5 px-8 cursor-pointer border-2 border-stone-500 hover:bg-black hover:text-white"
+                    style="letter-spacing: 2px;">See Product</button>
+            </div>
+        </div>
+
+        <div class="speacial-container flex gap-32 items-center mb-[200px]">
+            <div class="w-2/4">
+                <h2 class="font-bold text-[40px] w-[445px] uppercase leading-10 mb-8">Bringing you the <span
+                        class="text-orange-400">best</span> audio gear</h2>
+                <p class="text-[15px] leading-6 opacity-50">
+                    Located at the heart of New York City, Audiophile is the premier store for high end headphones,
+                    earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms
+                    available for you to browse and experience a wide range of our products. Stop by our store to meet
+                    some of the fantastic people who make Audiophile the best place to buy your portable audio
+                    equipment.
+                </p>
+            </div>
+            <div>
+                <img class="rounded-md" src="./assets/shared/desktop/image-best-gear.jpg" alt="best gear">
+            </div>
+        </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#101010] pt-[75px] pb-12">
+        <div class="speacial-container text-white">
+            <div class="flex justify-between mb-9">
+                <a href="/">
+                    <img src="./assets/shared/desktop/logo.svg" alt="logo">
+                </a>
+                <ul class="flex items-center gap-8 uppercase" style="letter-spacing: 2px;">
+                    <li><a href="/" class="hover:text-orange-300">Home</a></li>
+                    <li><a href="./pages/headphones.html" class="hover:text-orange-300">Headphones</a></li>
+                    <li><a href="./pages/speakers.html" class="hover:text-orange-300">Speakers</a></li>
+                    <li><a href="./pages/earphones.html" class="hover:text-orange-300">Earphones</a></li>
+                </ul>
+            </div>
+
+            <div class="flex justify-between mb-14">
+                <p class="w-[540px] text-[15px] leading-6 opacity-50">
+                    Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+                </p>
+
+                <div class="flex items-end gap-4">
+                    <a href="#">
+                        <img class="w-[24px]" src="./assets/shared/desktop/icon-facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img class="w-[24px]" src="./assets/shared/desktop/icon-twitter.svg" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img class="w-[24px]" src="./assets/shared/desktop/icon-instagram.svg" alt="instagram">
+                    </a>
+                </div>
+            </div>
+
+            <p class="text-[15px] leading-6 opacity-50">
+                Copyright 2021. All Rights Reserved
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
